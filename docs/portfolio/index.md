@@ -1,6 +1,6 @@
 ---
 title: Case Studies
-description: Datalumina B.V. is a data, analytics, and artificial intelligence company founded by Dave Ebbelaar to help businesses integrate AI and data into their operations. 
+description: Joe Samara is a freelance AI engineer with experience leveraging AI to create measureable business value.
 ---
 
 # Featured Projects
