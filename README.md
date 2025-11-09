@@ -1,4 +1,4 @@
-# Portfolio Website with MkDocs Material
+# Joseph's Portfolio Website with MkDocs Material
 
 This repository provides a template for creating a professional freelance portfolio website using MkDocs Material. Originally designed for technical documentation, MkDocs Material has evolved into a [powerful framework](https://squidfunk.github.io/mkdocs-material/blog/2024/08/19/how-were-transforming-material-for-mkdocs/) that's perfect for portfolios, blogs, and personal websites - all manageable through simple Markdown and YAML files.
 
