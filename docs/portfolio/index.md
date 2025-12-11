@@ -9,7 +9,7 @@ Welcome to my portfolio of data science and AI projects. Each project demonstrat
 
 <div class="grid cards" markdown>
 
--   [AI Customer Care Bot for Dev X](projects/project-1.md)
+-   [Custom RAG-Powered Chatbot](projects/project-1.md)
 
     ---
 
