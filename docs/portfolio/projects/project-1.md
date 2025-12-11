@@ -5,17 +5,6 @@ description: Implementation of an AI chatbot solution to provide relevant, data-
 
 # Custom RAG-Powered Chatbot
 
-??? tip "Portfolio Best Practices"
-    This is a simplified example project. When creating your own portfolio:
-    
-    - Include detailed technical challenges and how you solved them
-    - Add specific metrics and KPIs that demonstrate impact
-    - Show code snippets of interesting implementations
-    - Include architecture diagrams and system designs
-    - Document your decision-making process
-    - Highlight your specific contributions to the project
-    - Add visuals of the final product (if possible)
-
 !!! abstract "Case Study Summary"
     
     **Impact Metrics**:
