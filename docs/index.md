@@ -14,7 +14,7 @@ canonical_url: https://www.joesamara.com/
   "url": "https://www.joesamara.com/",
   "image": "https://avatars.githubusercontent.com/u/165314449?v=4",
   "sameAs": [
-    "https://www.linkedin.com/in/josephsamara/"
+    "https://www.linkedin.com/in/joesamara/"
   ],
   "jobTitle": "Freelance AI Engineer",
   "worksFor": {

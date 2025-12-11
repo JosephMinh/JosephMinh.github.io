@@ -4,11 +4,11 @@ site_url: https://joesamara.com
 nav:
   - Home:
     - About: index.md
-  # - Case Studies:
-  #   - Overview: portfolio/index.md
-  #   - Projects:
-  #     - portfolio/projects/project-1.md
-  #     - portfolio/projects/project-2.md
+  - Case Studies:
+    - Overview: portfolio/index.md
+    - Projects:
+      - portfolio/projects/project-1.md
+      - portfolio/projects/project-2.md
   # - Blog:
   #   - blog/index.md
 
@@ -50,14 +50,10 @@ theme:
 extra:
   generator: true
   social:
-    - icon: fontawesome/solid/building
-      link: https://company.com
     - icon: fontawesome/brands/github
-      link: https://github.com/
-    - icon: fontawesome/brands/youtube
-      link: https://youtube.com/
+      link: https://github.com/JosephMinh
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com
+      link: https://www.linkedin.com/in/joesamara/
   analytics:
     # provider: google
     # property: G-W9Y130NXVZ
@@ -79,6 +75,7 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - admonition
+  - pymdownx.blocks.caption
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -101,4 +98,4 @@ extra_files:
   - docs/robots.txt
 
 copyright: |
-  &copy; 2025 <a href="https://www.linkedin.com/in/josephsamara/" target="_blank" rel="noopener">Joe Samara</a>. All rights reserved.
+  &copy; 2025 <a href="https://www.linkedin.com/in/joesamara/" target="_blank" rel="noopener">Joe Samara</a>. All rights reserved.

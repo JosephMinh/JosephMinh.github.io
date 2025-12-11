@@ -1,9 +1,9 @@
 ---
-title: AI Customer Care Bot for Dev X
-description: Implementation of an AI chatbot solution to revolutionize customer service operations and enable staff transition to relationship-focused roles
+title: Custom RAG-Powered Chatbot
+description: Implementation of an AI chatbot solution to provide relevant, data-driven responses to users.
 ---
 
-# AI Customer Care Bot for Dev X
+# Custom RAG-Powered Chatbot
 
 ??? tip "Portfolio Best Practices"
     This is a simplified example project. When creating your own portfolio:
@@ -17,61 +17,42 @@ description: Implementation of an AI chatbot solution to revolutionize customer 
     - Add visuals of the final product (if possible)
 
 !!! abstract "Case Study Summary"
-    **Client**: Dev X  
-    **Website**: [devx.com](https://devx.com)  
-    **Industry**: Software Development  
     
     **Impact Metrics**:
     
-    - 90% reduction in customer service overhead (projected)
     - 100% accuracy on initial evaluation datasets
     - < 3 second response time for customer inquiries
-    - Successfully transitioned 12 CSRs to account management roles
-    - $240,000 annual cost savings in customer support operations
 
-Dev X aims to reduce its customer service overhead by 90% over the next three years through AI, enabling their staff to focus on more rewarding roles and build better relationships with clients.
 
 ## Challenge
 
-Their strategy involved transitioning customer service representatives to more rewarding account manager roles to enhance client relationships. They needed an AI solution that could efficiently handle routine customer inquiries while integrating seamlessly with their existing workflows.
+I built this project because the traditional search feature in Gmail or Outlook accounts uses a simple keyword search. This project takes it a step further by using semantic search and also uses AI to handle the query. The result is essentially a chatbot that I can ask more complex questions about data in my inbox.
 
-## Our Approach
+## My Approach
 
-We developed an AI chatbot specifically for Dev X's internal use, designed to assist customer service representatives in quickly accessing information. The solution was seamlessly integrated within Slack, the platform already used by their team, allowing for minimal disruption to existing workflows.
+For this project, I used a google apps script to scrape my inbox data and compile it into a spreadsheet. Next, I used a hybrid chunker from the docling library to chunk the data. I used an embedding model from OpenAI to generate vector embeddings of the chunks. Then, I stored these chunks and respective embeddings in a Postgres database using pgvector. I then created a function that used a simple SQL script to perform a similarity search on the vector database with the query. Then, I created a prompt to handle a user query along with the similarity search results and synthesize an answer. In the prompt, I wrote instructions to reply with “Information not available.” if the results from the similarity search could not be used to answer the user’s question. This limits hallucinations and makes sure the user is not misled with false information.
 
-## Results & Impact
+## Results
 
 - Response time under 3 seconds
 - 100% accuracy on initial evaluation datasets
-- Successful integration with existing Slack workflows
 - Currently expanding knowledge base coverage
-- Simple activation through Slack mentions
 
-## Solution Overview
+As a result, I now have the ability to ask questions about information in my inbox and get the answer. Below is a video demonstration where I walk you through the process.
 
-![Architecture Diagram](../../assets/openai-end-to-end-aml-deployment.svg)
+## Future Additions
 
-*Baseline OpenAI end-to-end chat reference architecture*
+I plan to use the Nylas API to pull email data on a regular basis and update the data that is used by the Rag system on a regular basis, removing the manual process from the data extraction. I would also like to build a simple frontend that can be deployed in a local browser tab.
 
 ## Tech Stack
 
-- OpenAI
-- Pinecone vector database
-- Slack API integration
-- Microsoft Azure cloud infrastructure
+- OpenAI API
+- Postgres vector database
+- Docling Library
 - Python backend services
-- FastAPI for RESTful endpoints
+- SQL
 - Docker containerization
-- GitHub Actions for CI/CD pipeline
 
-## Additional Context
-
-- Timeline: 3 months
-- Team Size: 2 people (AI Engineer and Data Engineer)
-- Role: AI Engineer
-- Close collaboration with customer service team
-- Ongoing knowledge base expansion
-- Future plans include implementing feedback mechanism
 
 <div class="grid cards" style="margin-top: 3rem" markdown>
 
@@ -81,6 +62,6 @@ We developed an AI chatbot specifically for Dev X's internal use, designed to as
     
     Want to see if we're a match? Let's have a chat and find out. Schedule a free 30-minute strategy session to discuss your AI challenges and explore how we can work together.
 
-    [Book Free Intro Call :material-arrow-top-right:](https://calendly.com){ .md-button .md-button--primary }
+    [Book Free Intro Call :material-arrow-top-right:](https://calendly.com/joesamara/introductory-call){ .md-button .md-button--primary }
 
 </div>
