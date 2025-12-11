@@ -13,7 +13,7 @@ Welcome to my portfolio of data science and AI projects. Each project demonstrat
 
     ---
 
-    An AI-powered chatbot solution for Dev X that enables customer service transformation, featuring Slack integration and sub-3 second response times. Built with OpenAI, Pinecone, and Azure cloud infrastructure to achieve 100% accuracy on initial datasets.
+    An AI-powered chatbot solution for email using RAG pipeline and featuring sub-3 second response times and hallucination prevention. Built with OpenAI, pgvector, and docling to achieve 100% accuracy on initial datasets.
 
 -   [Image Analysis for Fortune 100 Company](projects/project-2.md)
 
