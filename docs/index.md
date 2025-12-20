@@ -111,7 +111,7 @@ Here's what sets me apart and how I can help drive value for your business:
     While I can accommodate projects of any size, I find that engagements of at least 20 hours allow for meaningful impact. This gives us enough time to understand your data, implement solutions, and deliver actionable results. We can start with a small pilot project to ensure we're a good fit.
 
 ??? note "What industries do you have experience in?"
-    I've successfully delivered projects across e-commerce, manufacturing, healthcare, and financial services. While I specialize in data science fundamentals that apply across sectors, I particularly excel in projects involving customer behavior analysis, process optimization, and predictive modeling.
+    I've successfully delivered projects across aerospace, hospitality, and software development industries. While I specialize in data science fundamentals that apply across sectors, I particularly excel in projects involving customer support or employee onboarding.
 
 ??? note "How do you handle data security and confidentiality?"
     I take data security extremely seriously. I sign comprehensive NDAs before starting any project, use enterprise-grade encryption for all data transfers, and follow industry best practices for data handling. I can also work within your existing security infrastructure and policies.
